@@ -3,7 +3,8 @@ import java.util.*;
 public class SPOT
 {
     public static void main(String[]args)
-    {   Scanner sc= new Scanner();
+    {   
+        Scanner sc= new Scanner(System.in);
         int[]a1={10,20,30,40,50};
         int key=40;
         System.out.println("1.for Linear search      2.binary Search");
